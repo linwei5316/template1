@@ -1,0 +1,62 @@
+h1,h2,h3,h4,h5,h6,ul,li,p,a,pre,div,span,font{
+  font-family:微軟正黑體;
+}
+
+body{
+  margin: 0;
+  background-image: url("../images/mountain.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+a:hover{
+  color: rgb(62, 160, 214);
+}
+
+.nav{
+  position: fixed;
+  top: 0;
+  display: block;
+  height: 50px;
+  width:100%;
+  background-color: #fff;
+}
+
+.clear{
+  height: 50px;
+}
+
+
+
+nav a{
+  padding: 0 10px;
+}
+
+.left{
+  float: left;
+}
+
+.left p{
+  margin: 0;
+  padding: 14px 50px;
+}
+
+.right{
+  float: right;
+  padding: 13px 20px;
+}
+
+.content span{
+  font-size: 42px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
